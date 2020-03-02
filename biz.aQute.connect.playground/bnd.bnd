@@ -1,0 +1,6 @@
+-dependson *
+
+-export: \
+    playground.bndrun
+
+-fixupmessages: The JAR is empty

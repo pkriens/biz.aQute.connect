@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="biz.aQute.connect.provider" increment="1583153413008">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="biz.aQute.connect.provider"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.0.0.202003021250" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.0.0.202003021250" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="biz.aQute.connect.provider"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.0.0.202003021250" type="Version"/>
+      <attribute name="osgi.wiring.host" value="biz.aQute.connect.provider"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="15743" type="Long"/>
+      <attribute name="url" value="target/biz.aQute.connect.provider.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="760AF9481B83C1F97F1EFD61B76913A4A736A8EFD158F3092599AD7EB9C35B84"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/Ws/aQute/biz.aQute.connect"/>
+      <attribute name="project.path" value="/biz.aQute.connect.provider"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=aQute.bnd.osgi)(version&gt;=4.3.0)(!(version&gt;=5.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="aQute.bnd.osgi"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=aQute.lib.exceptions)"/>
+      <attribute name="osgi.wiring.package" value="aQute.lib.exceptions"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=aQute.lib.io)"/>
+      <attribute name="osgi.wiring.package" value="aQute.lib.io"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=aQute.lib.strings)"/>
+      <attribute name="osgi.wiring.package" value="aQute.lib.strings"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.9.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.framework"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework.connect)(version&gt;=1.0.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.framework.connect"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>

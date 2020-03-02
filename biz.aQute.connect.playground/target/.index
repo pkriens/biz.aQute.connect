@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="biz.aQute.connect.playground" increment="1583153549332">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="biz.aQute.connect.playground.run"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.0.0.202003021252" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.0.0.202003021252" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="biz.aQute.connect.playground.run"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.0.0.202003021252" type="Version"/>
+      <attribute name="osgi.wiring.host" value="biz.aQute.connect.playground.run"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="5981372" type="Long"/>
+      <attribute name="url" value="target/playground.bndrun.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="B43D7744018C3D1788997D79FB104B436D32E637D47B31620EBA160F94B7DE2E"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/Ws/aQute/biz.aQute.connect"/>
+      <attribute name="project.path" value="/biz.aQute.connect.playground"/>
+    </capability>
+  </resource>
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="biz.aQute.connect.playground"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.0.0.202003021252" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.0.0.202003021252" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="biz.aQute.connect.playground"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.0.0.202003021252" type="Version"/>
+      <attribute name="osgi.wiring.host" value="biz.aQute.connect.playground"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="466" type="Long"/>
+      <attribute name="url" value="target/biz.aQute.connect.playground.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="557F9009E19AF1892499A0261263BAD57D163816826A3F245E31043DB2218BD7"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/Ws/aQute/biz.aQute.connect"/>
+      <attribute name="project.path" value="/biz.aQute.connect.playground"/>
+    </capability>
+  </resource>
+</repository>
